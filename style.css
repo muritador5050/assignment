@@ -1,0 +1,66 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+}
+
+:root {
+  --bg-color: #355952;
+  --color: #eab63e;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  background-color: var(--bg-color);
+  padding: 2em;
+  min-height: 100vh;
+}
+
+.welcome {
+  text-transform: capitalize;
+  text-align: center;
+  padding: 1em;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color);
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.details {
+  text-transform: uppercase;
+  font-size: calc(2rem - 20px);
+  color: var(--color);
+}
+
+.img-div {
+  width: 40%;
+}
+.user-img {
+  height: 400px;
+}
+.content-div {
+  padding: 2em;
+  background-color: var(--color);
+  border-radius: 20px;
+  justify-items: center;
+}
+.name,
+.email {
+  text-transform: capitalize;
+}
