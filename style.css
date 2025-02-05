@@ -39,7 +39,7 @@ img {
 .main {
   display: flex;
   align-items: center;
-  gap: 3em;
+  gap: 2em;
 }
 
 .details {
@@ -48,6 +48,9 @@ img {
   color: var(--color);
 }
 
+.img-div {
+  width: 40%;
+}
 .user-img {
   height: 400px;
 }
